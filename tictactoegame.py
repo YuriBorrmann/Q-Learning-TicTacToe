@@ -20,7 +20,6 @@ start_q_table = "q_table.pickle"
 
 with open(start_q_table, "rb") as f:
     q_table = pickle.load(f)
-    print(q_table[(0,0,0,0,0,0,1,1,2)])
     
 
 # Pc playing
