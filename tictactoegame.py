@@ -78,9 +78,11 @@ def choices(button):
         result = rules(game, player)
         if result == 'win':
             tkinter.messagebox.showinfo("Tic-Tac-Toe", "You won!")
+            tk.destroy()
             return
         elif result == 'draw':
             tkinter.messagebox.showinfo("Tic-Tac-Toe", "It's a tie!")
+            tk.destroy()
             return
         # Pc playing
         game = tuple(game)
@@ -94,9 +96,11 @@ def choices(button):
         result = rules(game, pc)
         if result == 'win':
             tkinter.messagebox.showinfo("Tic-Tac-Toe", "You lost!")
+            tk.destroy()
             return
         elif result == 'tie':
             tkinter.messagebox.showinfo("Tic-Tac-Toe", "It's a tie!")
+            tk.destroy()
             return
         
         return
