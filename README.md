@@ -9,5 +9,6 @@ I used the "table_inversion.py" to mirror the model.
 
 # You can play against it! Try not to lose :)
 Just put the files "q_table.pickle" and "tictactoegame.py" in the same directory and run the script!
+You need to have python, numpy, pickle and ticker installed.
 
 Have fun!
